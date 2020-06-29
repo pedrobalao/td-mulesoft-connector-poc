@@ -109,13 +109,6 @@ public final class TalkdeskConnection {
         return response.getEntity().getContent();
 	}
 
-	//private static final Pattern pat = Pattern.compile(".*\"access_token\"\\s*:\\s*\"([^\"]+)\".*");
-	//private static final String clientId = "59e27b4fa19a482a86046893c625de66";// clientId
-	//private static final String clientSecret = "xspnZFKmbwS2qXS9BXfC9sg6WQ1mpQq8QSEq2UPx3sCsTTPTAioPjfJSHzYnFfCwz3TB6aRQ696PdIuU1WDVvQ";// client secret
-	//private static final String tokenUrl = "https://integrations2.talkdeskqaid.com/oauth/token";
-	//private static final String auth = clientId + ":" + clientSecret;
-	//private static final String authentication = Base64.getEncoder().encodeToString(auth.getBytes());
-
 
 	public static ClientCredentialsState getClientCredentials(String tokenUrl, String clientId, String clientSecret) throws IOException {
 		String auth = clientId + ":" + clientSecret;
