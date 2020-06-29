@@ -1,0 +1,14 @@
+<mule xmlns="http://www.mulesoft.org/schema/mule/core"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:talkdesk="http://www.mulesoft.org/schema/mule/talkdesk"
+      xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+          http://www.mulesoft.org/schema/mule/talkdesk http://www.mulesoft.org/schema/mule/talkdesk/current/mule-talkdesk.xsd">
+
+
+    <flow name="sayHiFlow">
+    </flow>
+
+    <flow name="retrieveInfoFlow">
+    </flow>
+
+</mule>
